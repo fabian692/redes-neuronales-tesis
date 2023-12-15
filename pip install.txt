@@ -1,0 +1,25 @@
+#pip install tensorflow-gpu
+     
+import tensorflow as tf
+import keras
+import sklearn
+from keras.optimizers import *
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder, MinMaxScaler
+import matplotlib.pyplot as plt
+from sklearn import preprocessing
+from sklearn.model_selection import train_test_split
+from keras.optimizers import *
+from keras.models import Sequential
+from keras.layers.core import Dense, Dropout, Activation
+from sklearn import metrics
+%matplotlib inline 
+from sklearn.metrics import confusion_matrix, f1_score, roc_curve, precision_score, recall_score, accuracy_score, roc_auc_score, auc
+from sklearn import metrics
+from mlxtend.plotting import plot_confusion_matrix
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import label_binarize
+from sklearn import preprocessing
+from sklearn.preprocessing import normalize
+from sklearn.preprocessing import LabelEncoder
