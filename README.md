@@ -1,4 +1,4 @@
-# redes-neuronales-tesis
+# Deep Neural Network
 
 
 
